@@ -13,5 +13,35 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="stdheaders">
+      <UniqueIdentifier>{e6e14849-d447-49ec-baa3-a1e3037b85de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdcode">
+      <UniqueIdentifier>{b90fc779-6b97-40f8-9b2e-ae5493e9a1cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\Interrupts.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="std\stdlibh.cpp">
+      <Filter>stdcode</Filter>
+    </ClCompile>
+    <ClCompile Include="code\Kernel.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\Interrupts.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="std\stdlibh.h">
+      <Filter>stdheaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="code\startup.ASM">
+      <Filter>Исходные файлы</Filter>
+    </None>
   </ItemGroup>
 </Project>

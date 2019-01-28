@@ -115,6 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="code\Interrupts.cpp" />
+    <ClCompile Include="code\Kernel.cpp" />
+    <ClCompile Include="std\stdlibh.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\Interrupts.h" />
+    <ClInclude Include="std\stdlibh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="code\startup.ASM" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
