@@ -4,6 +4,9 @@
 #OS virtual disk for QEMU
 OS.vdi
 
+# object files of GCC
+*.o
+
 # User-specific files
 *.suo
 *.user
