@@ -242,7 +242,7 @@ void init_interrupts() {
 	unsigned long idt_ptr[2];
 
 	idt_address = (unsigned long)IDT;
-	idt_ptr[0] = (sizeof(struct IDT_entry) * 286) + ((idt_address & 0xffff) << 16);
+	idt_ptr[0] = (sizeof(IDT_entry) * 286) + ((idt_address & 0xffff) << 16);
 	idt_ptr[1] = idt_address >> 16;
 
 	asm("lidt (%0)"::"a"(idt_ptr));
