@@ -1,0 +1,1 @@
+filesInstaller\filesInstaller.exe INIT compiled\boot2.bin os.img 1048576 compiled\boot.cfg

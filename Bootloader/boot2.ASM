@@ -466,3 +466,6 @@ start32:
                 mov     dx, [sector_per_track]
 
                 jmp     0x0000D000
+
+rb 1535 - ($ - $$)
+db 0

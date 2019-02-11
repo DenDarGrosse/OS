@@ -3,12 +3,13 @@
 
 #OS virtual disk for QEMU
 OS.vdi
+os.img
 
 # object files of GCC
 *.o
 
 # OS bin file
-kernel.bin
+*.bin
 
 # User-specific files
 *.suo
